@@ -1,0 +1,45 @@
+{
+  "name": "snowplow-kinesis-helpers",
+  "version": "0.0.1",
+  "description": "NodeJS helper functions for working with SnowPlow Analytics enriched AWS Kinesis event streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mattkirwan/snowplow-kinesis-helpers.git"
+  },
+  "keywords": [
+    "nodejs",
+    "node",
+    "snowplow",
+    "snow",
+    "plow",
+    "analytics",
+    "transform",
+    "aws",
+    "kinesis",
+    "stream",
+    "enriched",
+    "data",
+    "decode",
+    "encode"
+  ],
+  "author": "Matt Kirwan <lkjsad@fastmail.im>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattkirwan/snowplow-kinesis-helpers/issues"
+  },
+  "homepage": "https://github.com/mattkirwan/snowplow-kinesis-helpers#readme",
+  "dependencies": {
+    "snowplow-analytics-sdk": "^0.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.1.4",
+    "rewire": "^4.0.1",
+    "sinon": "^7.3.2"
+  }
+}
